@@ -28,7 +28,7 @@ The motivation behind implementing multiline support for labels is:
 * Improve support for horizontal and vertical text alignment.
 * Support for custom text effects (such as drop shadow).
 
-![Text effect in OS X](https://github.com/sasjo/multiline/dropshadow.png)
+![Text effect in OS X](https://github.com/sasjo/multiline/blob/master/dropshadow.png)
 
 To be honest, my main motivation was that I needed drop shadow on the text in labels, like on the desktop in OS X and Windows. I tried two solutions, the obvious one with a offscreen image that you apply a gaussian filter on and one that simply painted the text in various offset positions and alpha blends until it looked kind of like a drop shadow.
 
