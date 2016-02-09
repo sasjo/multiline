@@ -6,6 +6,22 @@ Originally published at http://samuelsjoberg.com/archive/2009/10/multiline-label
 
 The code is released under the MIT-license, so you're basically free to use it in any ways you find useful.
 
+# How to compile and run example
+
+![Sample application](https://github.com/sasjo/multiline/screenshot.png)
+
+Pull the repository and compile it:
+
+```bash
+mvn package
+```
+
+To run the example application, double click the jar in the target folder or run:
+
+```bash
+java -jar target/multiline-1.0-SNAPSHOT.jar
+```
+
 ------
 
 Continuing the Swing trail, I'm presenting my solution for multiline text labels in Swing. I wrote this during this spring and had simply forgotten about it.
