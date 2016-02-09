@@ -247,7 +247,7 @@ public final class Effects {
      * (e.g., <code>JList</code>). Cyclic gradients can be turned on using
      * {@link #setCyclic(boolean)} but are not used by default in this painter.
      * 
-     * @author Samuel Sjoberg, Extenda AB
+     * @author Samuel Sjoberg, http://samuelsjoberg.com
      */
     public static class GradientPainter {
 
