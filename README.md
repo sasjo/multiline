@@ -8,7 +8,7 @@ The code is released under the MIT-license, so you're basically free to use it i
 
 # How to compile and run example
 
-![Sample application](https://github.com/sasjo/multiline/screenshot.png)
+![Sample application](https://github.com/sasjo/multiline/blob/master/screenshot.png)
 
 Pull the repository and compile it:
 
