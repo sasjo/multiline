@@ -25,17 +25,18 @@ package sas.swing.samples;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Container;
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
+import javax.swing.JComponent;
 import javax.swing.JCheckBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
+import javax.swing.border.EmptyBorder;
 import javax.swing.plaf.LabelUI;
 
 import sas.swing.GradientPanel;
@@ -59,8 +60,9 @@ public class MultiLineSample implements Runnable {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // Use a GradientPanel as ContentPane.
-        Container contentPane = new GradientPanel(Color.GRAY, Color.DARK_GRAY);
+        JComponent contentPane = new GradientPanel(Color.GRAY, Color.DARK_GRAY);
         contentPane.setLayout(new BorderLayout());
+        contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
         // Shows how to use a regular JLabel as a multi-line label.
         final JLabel title = new JLabel("Multiline label's sample");
